@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>csw acm</title>
+    <style>
+    h1 {
+      margin: 0;
+    }
+    code {
+      background-color: #e3e3e3;
+      padding: 3px 5px;
+      border-radius: 2px;
+    }
+    </style>
+  </head>
+  <body>
+    <h1>csw acm</h1>
+    <p>schoology join code is <code id="code">SS92R-ZP2NC</code></p>
+    <script>
+      var code = document.getElementById("code");
+      code.style.cursor = "pointer";
+      code.addEventListener("click", function(e) {
+        document.execCommand("copy");        
+      });
+      code.addEventListener("copy", function(e) {
+        e.preventDefault();
+        e.clipboardData.setData("text/plain", e.target.innerText);
+        alert("code copied to clipboard!");
+      })
+    </script>
+  </body>
+</html>

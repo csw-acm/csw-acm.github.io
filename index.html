@@ -21,14 +21,12 @@
     <script>
       var code = document.getElementById("code");
       code.style.cursor = "pointer";
-      code.addEventListener("click", function(e) {
-        document.execCommand("copy");
-      });
-      code.addEventListener("copy", function(e) {
+      code.onclick = function(e) { document.execCommand("copy"); };
+      code.oncopy = function(e) {
         e.preventDefault();
         e.clipboardData.setData("text/plain", e.target.innerText);
         alert("code copied to clipboard!");
-      })
+      };
     </script>
   </body>
 </html>

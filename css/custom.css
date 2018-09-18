@@ -1,0 +1,80 @@
+/* CSS Document */
+/* Developed by Jaydon Reap (Ficus Technologies) */
+
+.navbar {
+	padding: 1rem 1rem;
+}
+
+.ml-auto .dropdown-menu {
+      left: auto !important;
+      right: 0px;
+    }
+
+.nav-link {
+	font-family: Lato-Light;
+	font-weight: bold;
+}
+
+.jumbotron {
+	background-color:#B662FF;
+	color:#FFFFFF;
+	border-radius: 0px;
+	padding: 12rem 2rem
+}
+
+/* Brand Styles */
+
+.acm {
+	font-family: Lato-Light;
+	color: #006ED4;
+}
+
+.csw {
+	font-family: Lato-Bold;
+    color: #006ED4; 
+}
+
+/* Cover Styles and Main Page */
+
+.cover-container {
+  background-color: #006ED4;
+}
+
+.cover {
+	margin-top: 12rem;
+	margin-bottom: 12rem;
+}
+
+.calltoaction {
+	background-color: #E8E8E8;
+}
+
+.calltoaction-text {
+	font-family: Lato-Thin;
+	font-size: 1.5rem;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	color: #484848;
+}
+
+.lead {
+	font-family: Lato-Bold;
+	font-size: 2rem;
+	color: #484848;
+}
+
+/* Font Styles */
+
+.lato-bold {
+	font-family: Lato-Bold;
+}
+
+.lato-light {
+	font-family: Lato-Light;
+}
+
+/* Globals */
+
+body {
+  color: #fff;
+}
